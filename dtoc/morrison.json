@@ -1,0 +1,35 @@
+{
+    "editionTitle": "ccc",
+    "editionSubtitle": "ddd",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='page']",
+    "documentContent": "",
+    "documentTitle": "",
+    "documentAuthor": "",
+    "indexDocument": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/nakamura196/leaf/refs/heads/main/dtoc/morrison.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//div",
+                "label": "div"
+            },
+            {
+                "xpath": "//persName",
+                "label": "persName"
+            }
+        ],
+        "toc": [
+            "e322752d75a49b916536028cd2473bee999ab56fa71ba675e2da9f075a894cd6",
+            "76e3c1046f78dcac6489872c4d2e78d5f99e17a5e0c3cca3a20a67ce5f3631ea",
+            "da338133505d7bee7334724745124d4d5d6d56f6c56e0963e6421197e7177f9b",
+            "bf77043500443867fef90d18cf352132cf73efac51884e48fb35236ff71132bd",
+            "383008333631dd993dbcf5e3b01a572f3c9867ff8232b2cd064c4fb3d641ca95"
+        ]
+    }
+}
