@@ -4,10 +4,10 @@
     "ignoreNamespace": true,
     "documents": "//div[@type='page']",
     "documentContent": "",
-    "documentTitle": "head",
+    "documentTitle": "head/title",
     "documentAuthor": "",
     "indexDocument": "//div[@type='index']",
-    "documentImages": "",
+    "documentImages": "//graphic[@url]",
     "documentNotes": "",
     "documentLinks": "",
     "inputs": [
@@ -34,11 +34,11 @@
             }
         ],
         "toc": [
-            "85e6b44d88012c341f8180e31696f10dac61b931522cd8a39b2c49ef7e69b831",
-            "71f6539acd175edc49adf17d45b9e4c14075d084e6e02386730191a094c4ae66",
-            "53a94dabb93543b020d7045ad1bcf1e9437392f778acd6e376772e13db4f13ee",
-            "b81cbe68122221c3e6cd51620c42c5cecc661bd0b4b293febb2d30f89f3c5277",
-            "89fa9b5d265f0bd87115bba4cae9fe27041c2146d1254e4e07881165b937d713"
+            "359e4fd7ce9a3e5d79b6e23494d8c529ae7367791fb34a24d48b968bf29a5e4d",
+            "f50022228030defab89022fd06078c62b7a56871bf3de526f584cf8537aefdcd",
+            "44555b7f95067c3dd9e2e6ced2f099133fd68a6ebdacebce871320645786447c",
+            "9c8306fc966f099afd337f6067521d83ac052be603a1febf249872591b1c9544",
+            "316d295872e98a2ec56bb338c357fc5ade046bcad4cda9c109d7a72ec29b8756"
         ]
     }
 }
