@@ -1,20 +1,25 @@
 {
-    "editionTitle": "ccc",
-    "editionSubtitle": "ddd",
+    "editionTitle": "Marco Polo\\'s adventures : The greatest traveller the world has seen.",
+    "editionSubtitle": "Holden, Edward S.",
     "ignoreNamespace": true,
     "documents": "//div[@type='page']",
     "documentContent": "",
-    "documentTitle": "",
+    "documentTitle": "head",
     "documentAuthor": "",
-    "indexDocument": "",
+    "indexDocument": "//div[@type='index']",
     "documentImages": "",
     "documentNotes": "",
     "documentLinks": "",
     "inputs": [
-        "https://raw.githubusercontent.com/nakamura196/leaf/refs/heads/main/dtoc/morrison.xml"
+        "http://127.0.0.1:5500/main.xml",
+        "http://127.0.0.1:5500/index.xml"
     ],
     "curation": {
         "markup": [
+            {
+                "xpath": "//date",
+                "label": "date"
+            },
             {
                 "xpath": "//div",
                 "label": "div"
@@ -22,14 +27,18 @@
             {
                 "xpath": "//persName",
                 "label": "persName"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "placeName"
             }
         ],
         "toc": [
-            "e322752d75a49b916536028cd2473bee999ab56fa71ba675e2da9f075a894cd6",
-            "76e3c1046f78dcac6489872c4d2e78d5f99e17a5e0c3cca3a20a67ce5f3631ea",
-            "da338133505d7bee7334724745124d4d5d6d56f6c56e0963e6421197e7177f9b",
-            "bf77043500443867fef90d18cf352132cf73efac51884e48fb35236ff71132bd",
-            "383008333631dd993dbcf5e3b01a572f3c9867ff8232b2cd064c4fb3d641ca95"
+            "85e6b44d88012c341f8180e31696f10dac61b931522cd8a39b2c49ef7e69b831",
+            "71f6539acd175edc49adf17d45b9e4c14075d084e6e02386730191a094c4ae66",
+            "53a94dabb93543b020d7045ad1bcf1e9437392f778acd6e376772e13db4f13ee",
+            "b81cbe68122221c3e6cd51620c42c5cecc661bd0b4b293febb2d30f89f3c5277",
+            "89fa9b5d265f0bd87115bba4cae9fe27041c2146d1254e4e07881165b937d713"
         ]
     }
 }
