@@ -1,0 +1,35 @@
+{
+    "editionTitle": "ゲーテ自署付書簡",
+    "editionSubtitle": "Johann Wolfgang von Goethe",
+    "ignoreNamespace": true,
+    "documents": "//body",
+    "documentContent": "",
+    "documentTitle": "",
+    "documentAuthor": "",
+    "indexDocument": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/utda/goethe/refs/heads/main/public/data/xml/goethe.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//div",
+                "label": "div"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "placeName"
+            },
+            {
+                "xpath": "//date",
+                "label": "date"
+            }
+        ],
+        "toc": [
+            "dc6b7656078df92aad75296eedb3c41af20a913b199c2116fcc47458f399ec87"
+        ]
+    }
+}
